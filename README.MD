@@ -1,4 +1,4 @@
-#Memory Cache
+#K-Way Memory Cache
 
 ## Prerequisite
 
@@ -24,3 +24,7 @@ To generate a jar far the following command is needed.
 ```sh
 gradle build
 ```
+
+####
+
+I have implemented LRU and MRU algorithms in the cache.
