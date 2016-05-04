@@ -25,6 +25,6 @@ To generate a jar far the following command is needed.
 gradle build
 ```
 
-####
+#### algorithms
 
 I have implemented LRU and MRU algorithms in the cache.
