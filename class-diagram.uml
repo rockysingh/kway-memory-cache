@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kwaysetassociativecache</OriginalElement>
+  <nodes>
+    <node x="532.0" y="403.0">com.kwaysetassociativecache.cache.MRUKWaySetSetAssociativeCache</node>
+    <node x="437.0" y="7.0">com.kwaysetassociativecache.KWaySetAssociativeCache</node>
+    <node x="177.0" y="404.0">com.kwaysetassociativecache.cache.LRUKWaySetSetAssociativeCache</node>
+    <node x="58.0" y="0.0">com.kwaysetassociativecache.Set</node>
+    <node x="0.0" y="235.0">com.kwaysetassociativecache.algorithm.MRUCache</node>
+    <node x="209.0" y="257.5">com.kwaysetassociativecache.algorithm.LRUCache</node>
+    <node x="340.0" y="-143.0">com.kwaysetassociativecache.CacheManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kwaysetassociativecache.algorithm.LRUCache" target="com.kwaysetassociativecache.Set">
+      <point x="0.0" y="-26.0" />
+      <point x="281.5" y="210.0" />
+      <point x="253.0" y="210.0" />
+      <point x="65.0" y="92.5" />
+    </edge>
+    <edge source="com.kwaysetassociativecache.cache.MRUKWaySetSetAssociativeCache" target="com.kwaysetassociativecache.algorithm.MRUCache">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.kwaysetassociativecache.cache.LRUKWaySetSetAssociativeCache" target="com.kwaysetassociativecache.KWaySetAssociativeCache">
+      <point x="0.0" y="-37.5" />
+      <point x="343.5" y="379.0" />
+      <point x="462.0" y="379.0" />
+      <point x="-59.0" y="59.0" />
+    </edge>
+    <edge source="com.kwaysetassociativecache.KWaySetAssociativeCache" target="com.kwaysetassociativecache.Set">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.kwaysetassociativecache.cache.MRUKWaySetSetAssociativeCache" target="com.kwaysetassociativecache.KWaySetAssociativeCache">
+      <point x="0.0" y="-37.5" />
+      <point x="698.5" y="379.0" />
+      <point x="580.0" y="379.0" />
+      <point x="59.0" y="59.0" />
+    </edge>
+    <edge source="com.kwaysetassociativecache.algorithm.MRUCache" target="com.kwaysetassociativecache.Set">
+      <point x="0.0" y="-48.5" />
+      <point x="94.5" y="210.0" />
+      <point x="123.0" y="210.0" />
+      <point x="-65.0" y="92.5" />
+    </edge>
+    <edge source="com.kwaysetassociativecache.cache.LRUKWaySetSetAssociativeCache" target="com.kwaysetassociativecache.algorithm.LRUCache">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.kwaysetassociativecache.CacheManager" target="com.kwaysetassociativecache.KWaySetAssociativeCache">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="416.0" y="270.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
